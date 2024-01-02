@@ -8,7 +8,7 @@ RUN apk add --update \
 
 WORKDIR /app
 
-RUN curl -LO https://github.com/boringproxy/boringproxy/releases/$POWERDNS_VERSION/download/boringproxy-linux-x86_64 
+RUN curl -LO https://github.com/boringproxy/boringproxy/releases/$VERSION/download/boringproxy-linux-x86_64 
 
 RUN chmod +x boringproxy-linux-x86_64
 
